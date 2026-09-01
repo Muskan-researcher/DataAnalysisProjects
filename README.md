@@ -24,10 +24,16 @@ The analysis focuses on examining the dataset, understanding sales patterns, and
 
 The repository currently contains an Data Cleaning notebook.
 
-Data Collection :- Multiple Sources-|-Web Scraping
-                                    |- Database
-                                    |- APIs
-                                    |- Survey
+Data Collection:
+```text
+Web Scraping
+   ↓
+Database
+   ↓
+APIs
+   ↓
+ Survey
+```
 Data cleaning is the process of detecting , correcting & handling errors in raw data to make it suitable for analysis or modeling. 
 
 ## Tools & Technologies
