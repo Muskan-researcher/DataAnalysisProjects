@@ -19,16 +19,35 @@ The analysis focuses on examining the dataset, understanding sales patterns, and
 - Seaborn
 - Jupyter Notebook
 
+
+### Data Cleaning
+
+The repository currently contains an Data Cleaning notebook.
+
+Data Collection :- Multiple Sources-|-Web Scraping
+                                    |- Database
+                                    |- APIs
+                                    |- Survey
+Data cleaning is the process of detecting , correcting & handling errors in raw data to make it suitable for analysis or modeling. 
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
 ## Analysis Workflow
 
 ```text
-Dataset
+Data Collection
    ↓
-Data Exploration
+Data Inspection
+(type of data in each column, missing values, datatypes, Inconsistence)
    ↓
 Data Preparation
-   ↓
-Exploratory Data Analysis
    ↓
 Visualization
    ↓
@@ -39,7 +58,8 @@ Insights
 
 ```text
 DataAnalysisProjects/
-├── EDA on Retail Sales Data.ipynb
+├── Data Cleaning
+└── EDA on Retail Sales Data.ipynb
 └── README.md
 ```
 
